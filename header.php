@@ -20,7 +20,7 @@
     <!-- style.css -->
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
     <!-- Highlight -->
-    <link rel="stylesheet" href="//cdn.bootcss.com/highlight.js/9.1.0/styles/github-gist.min.css">
+    <link href="https://cdn.bootcss.com/highlight.js/9.15.8/styles/monokai-sublime.min.css" rel="stylesheet">
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
     <?php if ( get_option('next_scheme', 'muse') == 'pisces' )  ?>

@@ -51,7 +51,7 @@
 
 <script src="<?php bloginfo('template_url'); ?>/statics/js/bootstrap.js"></script>
 <!-- highlight.js -->
-<script src="//cdn.bootcss.com/highlight.js/9.1.0/highlight.min.js"></script>
+    <script src="//cdn.bootcss.com/highlight.js/9.15.8/highlight.min.js"></script>
 <script>
     $('pre code').each(function(i, block) {
         hljs.highlightBlock(block);
