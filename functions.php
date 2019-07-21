@@ -41,4 +41,4 @@ function next_remove_open_sans() {
 add_action('init','next_remove_open_sans');
 
 // Import function files
-include 'functions/markdown.php';
+//include 'functions/markdown.php';
