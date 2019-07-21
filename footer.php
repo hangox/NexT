@@ -69,8 +69,16 @@
 <script src="https://cdn.bootcss.com/highlight.js/9.15.8/languages/makefile.min.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.15.8/languages/nginx.min.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.15.8/languages/powershell.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.8/languages/xml.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.8/languages/yaml.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.8/languages/swift.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.8/languages/sql.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.8/languages/pgsql.min.js"></script>
 <script>
     $('pre code').each(function (i, block) {
+        hljs.highlightBlock(block);
+    });
+    $('pre').each(function (i, block) {
         hljs.highlightBlock(block);
     });
 </script>

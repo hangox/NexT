@@ -10,7 +10,12 @@ Tag: Hexo, NexT
 
 /* highlight */
 .hljs{
-    background: none !important;
+
+}
+
+pre {
+    background: transparent;
+    padding: 0;
 }
 
 /* 404 page */
