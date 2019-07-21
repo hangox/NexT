@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="abb3662a-a3a5-4ab2-b299-bd1aac34fa2e" name="my-server" url="http://nginx.hangox.com">
+        <fileTransfer host="nginx.hangox.com" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/var/lib/docker/volumes/0d7982d1b27dad5aeee27fdc40aeb103ffc2020a94599f5a3ea039363813100e/_data/wp-content/themes/NexT/" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

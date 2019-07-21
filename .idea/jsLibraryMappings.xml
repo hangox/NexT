@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="file://$PROJECT_DIR$" libraries="{fastclick, groovy, highlight, jquery, jquery.fancybox.pack, jquery.lazyload, velocity, velocity.ui}" />
+  </component>
+</project>
